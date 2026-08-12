@@ -1,0 +1,6 @@
+{
+  "name": "WebP Converter",
+  "description": "Convert WebP images to JPG or PNG for free, fast and private directly inside your browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
