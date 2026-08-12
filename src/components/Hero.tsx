@@ -10,11 +10,11 @@ export const Hero: React.FC = () => {
       </div>
 
       <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-zinc-950 tracking-tight leading-[1.15] mb-4">
-        Convert WebP to JPG or PNG
+        WebP to JPG &amp; PNG Converter
       </h1>
 
-      <p className="text-base sm:text-xl text-zinc-600 max-w-2xl mx-auto font-normal leading-relaxed mb-6">
-        Free, fast and private. Your images are converted directly in your browser.
+      <p className="text-base sm:text-lg text-zinc-600 max-w-2xl mx-auto font-normal leading-relaxed mb-6">
+        Easily convert WebP images into standard JPG or PNG files directly in your web browser. All image processing happens locally on your device, ensuring your files are never uploaded to a server and no signup is required.
       </p>
 
       {/* Trust Highlights */}

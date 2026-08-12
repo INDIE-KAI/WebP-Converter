@@ -8,6 +8,7 @@ import { FileCard } from './components/FileCard';
 import { BatchSummaryBar } from './components/BatchSummaryBar';
 import { PrivacySection } from './components/PrivacySection';
 import { UseCasesSection } from './components/UseCasesSection';
+import { SeoContentSection } from './components/SeoContentSection';
 import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
 import { ToastContainer, ToastMessage } from './components/Toast';
@@ -339,6 +340,9 @@ export default function App() {
 
         {/* Use Cases Section */}
         <UseCasesSection />
+
+        {/* SEO Guide & Explanations */}
+        <SeoContentSection />
 
         {/* FAQ Section */}
         <FaqSection />
