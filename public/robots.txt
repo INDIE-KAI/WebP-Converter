@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webp-converter-7b3.pages.dev/sitemap.xml

@@ -7,23 +7,27 @@ export const FaqSection: React.FC = () => {
 
   const faqs: FaqItem[] = [
     {
+      question: 'What is a WebP image?',
+      answer: 'WebP is a modern image format developed to deliver smaller file sizes on websites while preserving visual quality. While supported in modern browsers, older software, desktop image editors, and legacy platforms often require standard JPG or PNG files.',
+    },
+    {
       question: 'How do I convert WebP to JPG?',
-      answer: 'To convert WebP to JPG, drag and drop your WebP file into the converter box or click "Choose WebP File". Ensure "JPG" is selected as your output format, then click "Convert Image" and download your converted file instantly.',
+      answer: 'To convert WebP to JPG, drag and drop your WebP file into the converter or click "Choose WebP File". Ensure "JPG" is selected as your output format, click "Convert Image", and download your converted file instantly.',
     },
     {
       question: 'How do I convert WebP to PNG?',
-      answer: 'To convert WebP to PNG, upload your WebP image, select "PNG" as your target format, and click "Convert Image". Converting to PNG preserves transparent backgrounds and provides lossless image detail.',
+      answer: 'To convert WebP to PNG, upload your WebP image, select "PNG" as your target format, and click "Convert Image". PNG is recommended when you need to preserve transparent backgrounds and crisp graphic lines.',
     },
     {
-      question: 'Is WebP conversion free?',
-      answer: 'Yes, this converter is completely free with no hidden charges, no subscription requirements, no usage limits, and no account creation or signup needed.',
+      question: 'Are my images uploaded to a server?',
+      answer: 'No. All conversion operations take place 100% locally inside your web browser using HTML5 Canvas technology. Your photos are never sent to external servers or stored anywhere online.',
     },
     {
-      question: 'Are my images uploaded?',
-      answer: 'No. All conversion operations take place 100% locally inside your web browser using JavaScript and HTML5 Canvas technology. Your photos are never sent to external servers or stored anywhere online.',
+      question: 'Do I need to install software?',
+      answer: 'No. You do not need to download or install any desktop applications, browser extensions, or plugins. The converter runs directly in any modern desktop or mobile web browser.',
     },
     {
-      question: 'Can I convert multiple WebP images?',
+      question: 'Can I convert multiple WebP images at once?',
       answer: 'Yes. You can select or drag and drop multiple WebP images at once to perform batch conversion. Once converted, you can download all files together in a convenient ZIP archive or save them individually.',
     },
   ];

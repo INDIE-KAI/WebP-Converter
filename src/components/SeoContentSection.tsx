@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileImage, ShieldCheck, Sparkles, Layers, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, Sparkles, Layers, Cpu, Laptop, Lock, Download } from 'lucide-react';
 
 export const SeoContentSection: React.FC = () => {
   return (
@@ -9,19 +9,19 @@ export const SeoContentSection: React.FC = () => {
         <div>
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-zinc-100 text-zinc-800 text-xs font-bold mb-3 border border-zinc-200">
             <Sparkles className="w-3.5 h-3.5 text-zinc-600" />
-            <span>Quick Guide</span>
+            <span>Step-by-Step Guide</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-zinc-950 tracking-tight mb-4">
-            How to convert WebP to JPG or PNG
+            How to Convert WebP to JPG or PNG
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="p-4 rounded-xl bg-zinc-50 border border-zinc-200/80">
               <span className="w-7 h-7 rounded-lg bg-zinc-900 text-white font-extrabold text-xs flex items-center justify-center mb-3">
                 1
               </span>
-              <h3 className="font-bold text-zinc-900 text-sm mb-1">Select your WebP image</h3>
+              <h3 className="font-bold text-zinc-900 text-sm mb-1">Choose a WebP image</h3>
               <p className="text-xs text-zinc-600 leading-relaxed font-normal">
-                Drag and drop your WebP image into the conversion area, choose a file from your device, or paste from your clipboard.
+                Drag and drop your WebP image into the conversion zone or click to select files from your computer or phone.
               </p>
             </div>
 
@@ -29,9 +29,9 @@ export const SeoContentSection: React.FC = () => {
               <span className="w-7 h-7 rounded-lg bg-zinc-900 text-white font-extrabold text-xs flex items-center justify-center mb-3">
                 2
               </span>
-              <h3 className="font-bold text-zinc-900 text-sm mb-1">Choose target format</h3>
+              <h3 className="font-bold text-zinc-900 text-sm mb-1">Select JPG or PNG</h3>
               <p className="text-xs text-zinc-600 leading-relaxed font-normal">
-                Select <strong>JPG</strong> for standard compressed photos or <strong>PNG</strong> to preserve transparent backgrounds and sharp details.
+                Choose <strong>JPG</strong> for photos and general sharing, or <strong>PNG</strong> to preserve transparency and sharp graphics.
               </p>
             </div>
 
@@ -39,9 +39,19 @@ export const SeoContentSection: React.FC = () => {
               <span className="w-7 h-7 rounded-lg bg-zinc-900 text-white font-extrabold text-xs flex items-center justify-center mb-3">
                 3
               </span>
-              <h3 className="font-bold text-zinc-900 text-sm mb-1">Download instantly</h3>
+              <h3 className="font-bold text-zinc-900 text-sm mb-1">Convert the image</h3>
               <p className="text-xs text-zinc-600 leading-relaxed font-normal">
-                Click <strong>Convert Image</strong> to process the file in your browser and save the output image or ZIP archive directly to your device.
+                Click <strong>Convert Image</strong> to let your browser decode and process the WebP image instantly on your device.
+              </p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-zinc-50 border border-zinc-200/80">
+              <span className="w-7 h-7 rounded-lg bg-zinc-900 text-white font-extrabold text-xs flex items-center justify-center mb-3">
+                4
+              </span>
+              <h3 className="font-bold text-zinc-900 text-sm mb-1">Download converted file</h3>
+              <p className="text-xs text-zinc-600 leading-relaxed font-normal">
+                Save the new JPG or PNG file directly to your downloads, or download all files together in a ZIP archive.
               </p>
             </div>
           </div>
@@ -74,32 +84,51 @@ export const SeoContentSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Why Convert & Is Privacy Guaranteed Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-6 rounded-2xl bg-white border border-zinc-200 space-y-2">
-            <div className="flex items-center gap-2 text-indigo-600 font-bold text-xs uppercase tracking-wider">
-              <Layers className="w-4 h-4" />
-              <span>Compatibility</span>
+        {/* Why Use a Browser-Based WebP Converter? */}
+        <div className="space-y-4">
+          <h2 className="text-2xl font-extrabold text-zinc-950 tracking-tight">
+            Why Use a Browser-Based WebP Converter?
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="p-5 rounded-2xl bg-white border border-zinc-200 space-y-2">
+              <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm">
+                <Laptop className="w-4 h-4" />
+                <span>No software installation</span>
+              </div>
+              <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed font-normal">
+                Convert your images without downloading desktop tools, command-line utilities, or browser plugins. Everything runs instantly in any modern web browser.
+              </p>
             </div>
-            <h2 className="text-lg font-bold text-zinc-900">
-              Why convert WebP images?
-            </h2>
-            <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed font-normal">
-              While WebP is optimized for web loading speeds, many legacy applications, graphics editing suites, offline document viewers, and email publishing templates require traditional JPG or PNG image files. Converting WebP guarantees your images open without display errors anywhere.
-            </p>
-          </div>
 
-          <div className="p-6 rounded-2xl bg-white border border-zinc-200 space-y-2">
-            <div className="flex items-center gap-2 text-emerald-600 font-bold text-xs uppercase tracking-wider">
-              <ShieldCheck className="w-4 h-4" />
-              <span>Security</span>
+            <div className="p-5 rounded-2xl bg-white border border-zinc-200 space-y-2">
+              <div className="flex items-center gap-2 text-emerald-600 font-bold text-sm">
+                <Cpu className="w-4 h-4" />
+                <span>Local browser processing</span>
+              </div>
+              <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed font-normal">
+                Image decoding and re-encoding is performed entirely on your device using native HTML5 Canvas APIs, ensuring fast rendering without server queues.
+              </p>
             </div>
-            <h2 className="text-lg font-bold text-zinc-900">
-              Is this converter private?
-            </h2>
-            <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed font-normal">
-              Yes, 100%. Conversion runs entirely within your device browser using native HTML5 Canvas rendering. Your files never leave your device, are never transmitted over the web, and are never saved to cloud servers or databases.
-            </p>
+
+            <div className="p-5 rounded-2xl bg-white border border-zinc-200 space-y-2">
+              <div className="flex items-center gap-2 text-amber-600 font-bold text-sm">
+                <Lock className="w-4 h-4" />
+                <span>No signup required</span>
+              </div>
+              <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed font-normal">
+                Start converting right away without creating an account, giving your email address, or dealing with subscriptions.
+              </p>
+            </div>
+
+            <div className="p-5 rounded-2xl bg-white border border-zinc-200 space-y-2">
+              <div className="flex items-center gap-2 text-blue-600 font-bold text-sm">
+                <Download className="w-4 h-4" />
+                <span>Convenient conversion</span>
+              </div>
+              <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed font-normal">
+                Easily drag and drop individual files or multiple WebP images at once, customize format choices, and download with a single click.
+              </p>
+            </div>
           </div>
         </div>
       </div>
